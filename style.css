@@ -3,9 +3,22 @@ body{
 	text-align: center;
 }
 
+
 #banner{
 	display: flex;
 	width: 100%;
+}
+
+h1, #banner>h2{
+	position: absolute;
+}
+
+#banner>h2{
+	font-size: 300%;
+}
+
+h1{
+	font-size: 500%;
 }
 
 div{
