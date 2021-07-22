@@ -1,0 +1,35 @@
+body{
+	background-color: grey;
+	text-align: center;
+}
+
+#banner{
+	display: flex;
+	width: 100%;
+}
+
+div{
+	display: block;
+}
+
+p{
+	font-size: 200px;
+}
+
+li{
+	font-size: 150px;
+}
+
+h2{
+	font-size: 300px;
+}
+.card{
+	display: flex;
+	justify-content: space-evenly; 
+	object-fit: cover;
+}
+
+.image{
+	border-radius: 50%;
+}
+

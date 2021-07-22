@@ -1,0 +1,83 @@
+#banner{
+	width: 100%;
+	position: relative;
+
+}
+h1{
+	font-size: 500%;
+
+	color: darkblue;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bold;
+	text-align: left;
+	position:absolute;
+	top: 60%;
+	left: 10%;
+
+
+}	
+
+h2{
+	text-align: center;
+	padding: 20px;
+	'Orbitron', sans-serif;
+}
+#topbanner{
+	display: flex;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+@media screen and (max-width: 900px){
+	body{
+		background-color: lightcyan;
+	}
+
+	#h2{
+		text-align: center;
+		display: flex;
+		justify-content: space-evenly;
+		position:absolute;
+	}
+
+	h1{
+		top: 10%;
+	}
+}
+	
+@media screen and (max-width: 600px){
+	body{
+		background-color: lavenderblush;
+	}
+
+
+	h1{
+		display: none;
+	}
+}
+#cards{
+	display: flex;
+	justify-content: space-evenly;
+}
+.image{
+	width: ;
+	height: ;
+
+}
+.container{
+	border: 1px solid black;
+}
+
+.col-3{
+	border: 1px solid black;
+}
+.btn-primary{
+	margin: 20px;
+}
+
+#accordion{
+	margin: 20px;
+	padding: 70px;
+}
+		
